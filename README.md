@@ -1,4 +1,4 @@
-<b> FaceDetectionApplication Integrated Python, DL, WhatsApp service and Email service , haarcascade for face recognition, and LBPH for model training</b>
+# FaceDetectionApplication Integrated Python, DL, WhatsApp service and Email service , haarcascade for face recognition, and LBPH for model training
 
 face_classifier.detectMultiScale accepts 6 arguments , but works with single argument also. 
 passing array of pic information is must, but here we are passing scale factor (always > 1) and min neighbours value also.
@@ -31,10 +31,10 @@ it requires 6 arguments,(image, string, position where string needed to show, fo
     
     
     Initialize facial recognizer
-# model = cv2.face.createLBPHFaceRecognizer()
-# NOTE: For OpenCV 3.0 use cv2.face.createLBPHFaceRecognizer()
-# pip install opencv-contrib-python
-# model = cv2.createLBPHFaceRecognizer()
+model = cv2.face.createLBPHFaceRecognizer()
+NOTE: For OpenCV 3.0 use cv2.face.createLBPHFaceRecognizer()
+pip install opencv-contrib-python
+model = cv2.createLBPHFaceRecognizer()
 
 #os.path.isfile() method in Python is used to check whether the specified path is an existing regular file or not.
 #os.path.join for concatenating various path components with exactly one directory separator (‘/’)
